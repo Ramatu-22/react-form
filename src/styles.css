@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Form.css */
+.form-container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: skyblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+  font-size: 25px;
+  font-weight: 800;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: -10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
